@@ -1,0 +1,10 @@
+.ui.card{
+    min-height: 52vh !important;
+    margin-bottom: 4vh !important;
+    margin-left: 1.5vh !important;
+}
+
+.ui.card .image{
+    min-height: 25vh !important;
+}
+

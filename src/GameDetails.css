@@ -1,0 +1,55 @@
+.gameDetails .description {
+    max-height: 35vh;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+.platform-logo {
+    height: 4vh;
+    padding: 5px;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+
+.logo-container img {
+    width: 50px;
+}
+
+.logo-container .ui.small.image {
+    vertical-align: top;
+    text-align: -webkit-center;
+}
+
+.gameDetails img.ui.small.image.modal-thumbnail {
+    margin: 5px;
+}
+
+.gameDetails .screenshotsContainer{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.favorite {
+    font-size: 10vh;
+    padding-top: 3vh;
+    color: #FFB70A,
+}
+
+.no-favorite {
+    font-size: 10vh;
+    padding-top: 3vh;
+    color: #1E1E1E,
+}
+
+.favorite:hover, .no-favorite:hover {
+    cursor: pointer;
+}
+
+.labels {
+    padding-top: 3vh;
+}

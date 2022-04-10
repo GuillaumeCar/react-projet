@@ -1,0 +1,4 @@
+.teamContainer .ui.card {
+    min-height: 45vh !important;
+    cursor: pointer
+  }
